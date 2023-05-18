@@ -6,8 +6,7 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname+"/index.html")
 });
 
-
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8800;
 app.listen(port, function () {
   console.log("server is running on port 80");
 });
